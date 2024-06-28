@@ -1,11 +1,8 @@
-# Artificial Intelligence (AI) as what it really means
-
 ![](logo.png)
 
-Chrome extension that replaces the letters "A I" with what it really means.
+Chrome extension similar to "Cloud to Butt" that replaces "AI" with what it really means.
 
-[Direct download of crx file](https://github.com/sabslikesobs/ai-to-workers-in-india/blob/master/Extension.crx?raw=true)
-You may have to download the file from a different browser because Chrome insists on treating you like a crippled retarded child and will block the download.
+[Direct download of crx file](https://github.com/sabslikesobs/ai-to-workers-in-india/blob/master/Extension.crx?raw=true). You may have to download the file from a different browser because Chrome insists on treating you like a crippled retarded child and will block the download.
 
 ## Installation
 
