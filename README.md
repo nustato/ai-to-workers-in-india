@@ -1,14 +1,15 @@
-# AI as Thousands of Workers in India
+# Artificial Intelligence (AI) as what it really means
 
 ![](logo.png)
 
-Chrome extension that replaces the text 'AI' with what it really means.
+Chrome extension that replaces the letters "A I" with what it really means.
 
-[Direct download of crx file](https://github.com/sabslikesobs/ai-to-workers-in-india/blob/master/AiToWorkersInIndia.crx?raw=true)
+[Direct download of crx file](https://github.com/sabslikesobs/ai-to-workers-in-india/blob/master/Extension.crx?raw=true)
+You may have to download the file from a different browser because Chrome insists on treating you like a crippled retarded child and will block the download.
 
 ## Installation
 
-In Chrome, choose Window > Extensions. Drag AiToWorkersInIndia.crx into the page that appears.
+In Chrome, choose Tools > Extensions. Drag Extension.crx into the page that appears.
 
 ## Samples
 
