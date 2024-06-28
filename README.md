@@ -18,5 +18,5 @@ In Chrome, choose Tools > Extensions. Drag Extension.crx into the page that appe
 - The 7 Biggest Artificial Intelligence (AI) Stories of This Year
 - OpenAI unveils newest AI model, GPT-4o
 - OpenAI Wants AI to Help Humans Train AI
-- Google I/O: AI is Embedded in Search, Buuilding On...
+- Google I/O: AI is Embedded in Search, Building On...
 - AI now beats humans at basic tasks
