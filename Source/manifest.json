@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
-	"name": "AI means Workers in India",
+	"name": "AI as Thousands-of-Workers-in-India",
 	"version": "1",
-	"description": "Replaces the text 'AI' with what it really means.",
+	"description": "Replaces the text \"AI\" in webpages with \"thousands of workers in India\".",
 	"content_scripts": [
 		{
 			"matches": ["*://*/*"],
