@@ -1,8 +1,8 @@
 ![](logo.png)
 
-Chrom extension that replaces the text "AI" in webpages with "thousands of workers in India".
+Chrome extension that replaces the text "AI" in webpages with "thousands of workers in India".
 
-This helpful text replacement will aid you in remembering that Artificial Intelligence, as it exists today, is based on the hard labors of many thousands of tireless categorizers, labelers, and scorers from the Indian peninsula. Indeed, perhaps the virtue of AI tools is that it acts as a sort of virtual, personal connection to thousands of workers in India striving to create brand new content, just for you.
+This helpful text replacement will aid you in remembering that Artificial Intelligence, as it exists today, is based on the hard labors of many thousands of tireless categorizers, labelers, and scorers from the Indian peninsula. Indeed, perhaps the virtue of AI tools are that they act as a sort of virtual, personal connection to thousands of workers in India striving to create brand new content, just for you.
 
 ## Installation
 
