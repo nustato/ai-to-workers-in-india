@@ -8,12 +8,12 @@ Chrome extension similar to "Cloud to Butt" that replaces "AI" with what it real
 
 In Chrome, choose Tools > Extensions. Drag Extension.crx into the page that appears.
 
-## Samples
+## FAQ
 
-- News about AI
-- AI News & Artificial Intelligence | Techcrunch
-- The 7 Biggest Artificial Intelligence (AI) Stories of This Year
-- OpenAI unveils newest AI model, GPT-4o
-- OpenAI Wants AI to Help Humans Train AI
-- Google I/O: AI is Embedded in Search, Building On...
-- AI now beats humans at basic tasks
+When does it run? Once when the page loads.
+
+Does it work on anything other than the exact regex `\bAI\b`? No.
+
+Does it work on infinitely-scrolling pages? No.
+
+Does it work on dynamic content or affect your typing? No.

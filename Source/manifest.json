@@ -1,20 +1,13 @@
 {
 	"manifest_version": 3,
-	"name": "AI as Workers in India",
-	"version": "1.0",
+	"name": "AI means Workers in India",
+	"version": "1",
 	"description": "Replaces the text 'AI' with what it really means.",
-	"permissions": [
-		"activeTab",
-		"scripting"
-	],
-	"host_permissions": [
-		"*://*/*"
-	],
 	"content_scripts": [
 		{
 			"matches": ["*://*/*"],
 			"js": ["content_script.js"],
-			"run_at": "document_end"
+			"run_at": "document_idle"
 		}
 	],
 	"icons": {
