@@ -6,15 +6,15 @@ This helpful text replacement will aid you in remembering that Artificial Intell
 
 ## Installation
 
-First, [download this repository as a zip file](https://github.com/sabslikesobs/ai-to-workers-in-india/archive/refs/heads/master.zip) and unpack it. This is necessary because Chrome will refuse to download an unsigned extension.
+You can install it [from the Google Chrome Store](https://chromewebstore.google.com/detail/ai-as-thousands-of-worker/ddjeajjchjpimglldgcefhklbdefbnlk).
+
+If you don't want to get it from the store, [download this repository as a zip file](https://github.com/sabslikesobs/ai-to-workers-in-india/archive/refs/heads/master.zip) and unpack it. This is necessary because Chrome will refuse to download an unsigned extension.
 
 Second, in Chrome, open Tools > Extensions. Drag Extension.crx into the page that appears. You may delete all of the files you downloaded; the extension is now installed.
 
 You may also download or clone the repository and add the "Source" directory to Chrome as an Unpacked Extension, if you prefer not to install an unsigned extension for security reasons. You have to keep the extension directory around though.
 
 ## FAQ
-
-Is it on the Chrome store? Not yet, awaiting review.
 
 When does it run? Once when the page loads.
 
