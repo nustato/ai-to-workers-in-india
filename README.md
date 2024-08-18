@@ -16,10 +16,10 @@ You may also download or clone the repository and add the "Source" directory to 
 
 ## FAQ
 
-When does it run? Once when the page loads.
+When does it run? Once when the page loads and again when the page contents change.
 
-Does it work on anything other than the exact regex `\bAI\b`? No.
+Does it work on anything other than the exact regex `\bAI\b`? Yes, it covers "generative AI", "A.I.", "artificial intelligence", and "AI".
 
-Does it work on infinitely-scrolling pages? No.
+Does it work on infinitely-scrolling pages? Generally yes, but has some bugs on weird sites like Reddit.
 
 Does it work on dynamic content or affect your typing? No.
