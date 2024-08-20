@@ -14,7 +14,7 @@ Second, in Chrome, open Tools > Extensions. Drag Extension.crx into the page tha
 
 You may also download or clone the repository and add the "Source" directory to Chrome as an Unpacked Extension, if you prefer not to install an unsigned extension for security reasons. You have to keep the extension directory around though.
 
-## FAQ
+## QnA
 
 When does it run? Once when the page loads and again when the page contents change.
 
@@ -22,4 +22,16 @@ Does it work on anything other than the exact regex `\bAI\b`? Yes, it covers "ge
 
 Does it work on infinitely-scrolling pages? Generally yes, but has some bugs on weird sites like Reddit.
 
-Does it work on dynamic content or affect your typing? No.
+Does it affect chats, DMS, etc that I receive? Yeah, probably.
+
+Does it change what I send as messages? It shouldn't, but sometimes input boxes don't like to be called input boxes and the extension misses them.
+
+## Demo Suite
+
+- Stephen Hawking warns AI could end mankind
+- I accidentally created A.I. in my Minecraft world
+- Happy birthday to Alan Turing, the father of Artificial Intelligence!
+- AI supremacy
+- In This Headline All AI Terms Are Capitalized
+- ChatGPT is NOT generative AI
+- AI is going to destroy the world
