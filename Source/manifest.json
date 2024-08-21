@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "AI as Thousands-of-Workers-in-India",
-	"version": "2",
+	"version": "3",
 	"description": "Replaces the text \"AI\" in webpages with \"thousands of workers in India\".",
 	"content_scripts": [
 		{
