@@ -18,7 +18,7 @@ You may also download or clone the repository and add the "Source" directory to 
 
 When does it run? Once when the page loads and again when the page contents change.
 
-Does it work on anything other than the exact regex `\bAI\b`? Yes, it covers "generative AI", "A.I.", "artificial intelligence", and "AI".
+Does it work on anything other than the exact regex `\bAI\b`? Yes, it covers "generative AI", "artificial intelligence", and "AI". It does not work on "A.I." for reasons unknown.
 
 Does it work on infinitely-scrolling pages? Generally yes, but has some bugs on weird sites like Reddit.
 
@@ -29,7 +29,6 @@ Does it change what I send as messages? It shouldn't, but sometimes input boxes 
 ## Demo Suite
 
 - Stephen Hawking warns AI could end mankind
-- I accidentally created A.I. in my Minecraft world
 - Happy birthday to Alan Turing, the father of Artificial Intelligence!
 - AI supremacy
 - In This Headline All AI Terms Are Capitalized

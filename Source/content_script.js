@@ -1,6 +1,6 @@
 function walkAndReplace(node) {
 	const walker = document.createTreeWalker(node, NodeFilter.SHOW_ELEMENT, node=>{
-		return node.matches("input,textarea,.editor,*[contenteditable='true']") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
+		return node.matches("input,textarea,pre,.editor,*[contenteditable='true']") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
 	})
 	while(walker.nextNode()) {
 		for (const node of walker.currentNode.childNodes) {
@@ -20,17 +20,14 @@ function handleText(textNode)
 
 	let y = 0
 	let toks = v.trim().split(/\s+/)
-	// Capitalize it if at least 3 of first 6 words in str are capitalized
+	// Capitalize it if at least 4 of first 8 words in str are capitalized
 	toks.slice(0,8).forEach(x => {
 		y += x[0].toUpperCase() == x[0] ? 1 : -1;
 	})
-	// bugs: affects text box on regexpal
-	// bugs: \b is supposed to work for anything not letters and underscore but breaks fro A.I. for some reason
 	let capitalize = y > 0
 	v = v.replace(/\b[Gg]enerative AI\b/g, "AI");
 	v = v.replace(/\b[Aa]rtificial[- ][Ii]ntelligence\b/g, "AI");
-	v = v.replace(/\bArtificial Intelligence\b/g, "AI");
-	v = v.replace(/\bA\.I\./g, "AI");  // \b doesn't work on periods
+	v = v.replace(/\bA\.I\.\b/g, "AI"); // WHY ISN'T THIS WORKING?!
 	v = v.replace(/\bAn AI\b/g, "A AI");
 	v = v.replace(/\ban AI\b/g, "a AI");
 	v = v.replace(/\bAI is\b/g, "AI are");
